@@ -1,0 +1,67 @@
+<html>
+<header>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Best Price Flights</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+</header>
+<body>
+    <div id='topHeader'><image align='top' src='Images/BFPHeader.png'>
+    </div>
+    <div id='selectionPane'>
+              <div id='selectionPaneItems'>
+                <div id='tripTypeSelectionBar'>
+                  <input class='selectionCheckBox' type='checkbox' name='roundTrip' value='roundTrip'><label class='selectionLabel selectionBox'> Round Trip</label>
+                  <input class='selectionCheckBox' type='checkbox' name='oneWay' value='oneWay'><label class='selectionLabel selectionBox'> One Way </label>
+                </div>
+
+                <div class='selectionPaneItem'>
+                  <div class='selectionLabel'><h3>Departure Location</h3></div>
+                  <div class='selectionLabel'>Airports within</div>
+                  <input type='text' id='departure_radius'>
+                  <div class='selectionLabel'>Miles of</div>
+                  <input type='select'>
+                </div>
+
+                <div class='selectionPaneItem'>
+                  <div class='selectionLabel'><h3>Destination Location</h3></div>
+                  <div class='selectionLabel'>Airports within</div>
+                  <input type='text' id='arrival_radius'>
+                  <div class='selectionLabel'>Miles of</div>
+                  <input type='select'>
+                </div>
+
+                <div class='selectionPaneItem'>
+                  <div class='selectionLabel'><h3>Departure Date Range</h3></div>
+                  <div class='selectionLabel'>Departure Range Start</div>
+                  <input type='date'>
+                  <div class='selectionLabel'>Departure Range End</div>
+                  <input type='date'>
+                </div>
+
+                <div class='selectionPaneItem'>
+                  <div class='selectionLabel'><h3>Return Date Range</h3></div>
+                  <div class='selectionLabel'>Return Range Start</div>
+                  <input type='date'>
+                  <div class='selectionLabel'>Return Range End</div>
+                  <input type='date'>
+                </div>
+
+                <div class='selectionPaneItem'>
+                  <div class='selectionLabel'><h3>Travelers</h3></div>
+                  <div class='selectionLabel'>Adults</div>
+                  <input type='select'>
+                  <div class='selectionLabel'>Children</div>
+                  <input type='select'>
+                  <div class='selectionLabel'>Seniors</div>
+                  <input type='select'>
+                </div>
+                <div class='centerContent'>
+                  <button class='submitButton' id='lookupFlightsButton' onclick="lookupFlights()">Lookup Flights!</button>
+                </div>
+              </div>
+            </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#selectionPane{
+    height: 300px; 
+    margin-bottom: 50px;  
+    background-image: url("Images/backgroundImageBanner.jpg"); 
+    background-size: cover; 
+}
+
+#selectionPaneItems{ 
+    height: 200px ; 
+    width: 70%;  
+    margin-left: 18%; 
+    padding-top: 50px;     
+    font-size: 14px; 
+
+}
+
+#topHeader img{
+    margin-left: 17%; 
+    margin-top: 0px; 
+    padding-top: 0px; 
+    height: 75px;  
+}
+
+.centerContent{
+    width: 100%; 
+    display: flex; 
+    justify-content: center;  
+}
+
+.submitButton{
+    height: 50px; 
+    background: white; 
+    border-style: solid;
+    border-width: 3px;  
+    border-color: #e25d0f; 
+    color: #e25d0f;
+    border-radius: 25px; 
+    font-size: 18px;  
+}
+
+#tripTypeSelectionBar{
+    display: flex; 
+}
+
+.selectionPaneItem{
+    width: 19%; 
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.selectionCheckBox{ 
+    margin-right: 5px; 
+}
+
+.selectionBox{
+    margin-right: 50px; 
+}
+
+.selectionLabel{
+    color: white; 
+}
+
+.offers, #flightError{ 
+    box-shadow: 0px 5px 15px 0px; 
+    background-color: black; 
+    opacity: .85; 
+    max-width: 80%;
+    margin-left: 10%; 
+    border-radius: 5px; 
+    padding: .5% 2.5% .5% 2.5%; 
+}
+
+
+.offer{ 
+    background-color: white;   
+    width: 95%; 
+    padding: 2.5%; 
+    margin: 2.5% 0 2.5% 0; 
+}
+.offer ul{
+    list-style-type: none; 
+}
+
+h5{
+    margin-bottom: 0px; 
+    margin-top: 20px;  
+}
+h6{
+    margin-top: 3px; 
+    margin-bottom: 5px; 
+}
+h4{
+    margin-top: 2px; 
+    margin-bottom: 0px; 
+}
+h2{
+    margin-bottom: 0px; 
+}
+#IDPrice{
+    width: 100%; 
+    text-align: center; 
+}
