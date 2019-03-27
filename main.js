@@ -19,7 +19,7 @@ function fillOriginIATA(){
 function fillIATACodes(){
     var ajax = new XMLHttpRequest(); 
     var method = "GET"; 
-    var url = "/php/getCities.php"; 
+    var url = "./php/getCities.php"; 
     var asynchronous = true; 
 
     ajax.open(method, url, asynchronous);
