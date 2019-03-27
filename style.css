@@ -1,106 +1,85 @@
 body{
     background-size: cover; 
     font-family: Arial, Helvetica, sans-serif; 
-}
-#selectionPane{
-    height: 300px; 
-    margin-bottom: 50px;  
-    background-image: url("Images/backgroundImageBanner.jpg"); 
-    background-size: cover; 
+    margin: 0px;
+    background :#3f4142;
 }
 
-#selectionPaneItems{ 
-    height: 200px ; 
-    width: 70%;  
-    margin-left: 18%; 
-    padding-top: 50px;     
-    font-size: 14px; 
-
+header{
+    width: 100vw; 
+    height: 70px; 
+    background: #0f9eb8; 
+    box-shadow: 0px 4px 14px 2px;
 }
 
-#topHeader img{
-    margin-left: 17%; 
-    margin-top: 0px; 
-    padding-top: 0px; 
-    height: 75px;  
-}
-
-.centerContent{
-    width: 100%; 
+main{
     display: flex; 
-    justify-content: center;  
+    text-align: center;
+    background: darkgrey;
 }
 
-.submitButton{
-    height: 50px; 
-    background: white; 
-    border-style: solid;
-    border-width: 3px;  
-    border-color: #e25d0f; 
-    color: #e25d0f;
-    border-radius: 25px; 
-    font-size: 18px;  
+#searchItemContainer{
+    background: whitesmoke url('Images/citySkyline.png'); 
+    background-size: cover;
+    height: 600px; 
+    width: 90vw; 
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 60px; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 14px 2px;
+    display:flex;
+    flex-wrap: wrap;
 }
 
-#tripTypeSelectionBar{
-    display: flex; 
+.searchItem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 29%;
+    box-shadow: 0px 4px 14px 2px;
+    background: white;
+    height: 25%;
+    border-radius: 10px;
+    margin:2%; 
+    margin-top: -100px;
 }
 
-.selectionPaneItem{
-    width: 19%; 
-    display: inline-block; 
-    vertical-align: top;
+.searchItem:hover{
+    box-shadow: 0px 4px 20px 4px;
 }
 
-.selectionCheckBox{ 
-    margin-right: 5px; 
+.searchItem p{
+    font-size: 22px;
+    width: 100%;
+    margin:auto;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, .65); 
 }
 
-.selectionBox{
-    margin-right: 50px; 
+.searchItem h{
+    font-size: 15px;
+    width: 20%;
+    margin-left: 10%;
+    height: 30px;
+    margin-top: 2%;
 }
 
-.selectionLabel{
-    color: white; 
+.searchItem Input{
+    width: 60%;
+    height: 30px;
+    font-size: 15px;
 }
 
-.offers, #flightError{ 
-    box-shadow: 0px 5px 15px 0px; 
-    background-color: black; 
-    opacity: .85; 
-    max-width: 80%;
-    margin-left: 10%; 
-    border-radius: 5px; 
-    padding: .5% 2.5% .5% 2.5%; 
+.searchItem select{
+    width: 60%;
+    height: 30px;
+    font-size: 15px;
 }
 
 
-.offer{ 
-    background-color: white;   
-    width: 95%; 
-    padding: 2.5%; 
-    margin: 2.5% 0 2.5% 0; 
-}
-.offer ul{
-    list-style-type: none; 
-}
 
-h5{
-    margin-bottom: 0px; 
-    margin-top: 20px;  
-}
-h6{
-    margin-top: 3px; 
-    margin-bottom: 5px; 
-}
-h4{
-    margin-top: 2px; 
-    margin-bottom: 0px; 
-}
-h2{
-    margin-bottom: 0px; 
-}
-#IDPrice{
-    width: 100%; 
-    text-align: center; 
-}
