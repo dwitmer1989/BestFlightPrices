@@ -1,0 +1,1 @@
+e 'https://iatacodes-iatacodes-v1.p.rapidapi.com/api/v5/airports?code=CDG&lang=en&api_key=c1cb873d-ff8c-4a9b-a057-f1d52728e246'; 

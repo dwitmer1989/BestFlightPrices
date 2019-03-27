@@ -16,21 +16,20 @@ function fillOriginIATA(){
     hidePrompt(); 
 }
 
+
+
 function fillIATACodes(){
-    var ajax = new XMLHttpRequest(); 
-    var method = "GET"; 
-    var url = "./php/getCities.php"; 
-    var asynchronous = true; 
-
-    ajax.open(method, url, asynchronous);
-    ajax.send(); 
-
-    ajax.onreadystatechange=function(){
-        if(this.readyState==4 && this.status ==200){
-            alert(this.responseText); 
-        }
-    }
+    $('#IATASelect').html(getRemote()); 
 }
+
+function getRemote() {
+    return $.ajax({
+        type: "GET",
+        url: "./php/getCities.php",
+        async: false
+    }).responseText;
+}
+
 
 
 
